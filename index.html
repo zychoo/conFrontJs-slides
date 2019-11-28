@@ -51,6 +51,23 @@
 						<source data-src="video/install-dependencies.mp4" type="video/mp4"/>
 					  </video>
 				</section>
+				<section>
+					<pre>
+						<code style="font-size:18px">
+new Infrastructure(app, 'Infr-One-W', { env: { account: 'ONE', region: 'us-west-2' }});
+new Infrastructure(app, 'Infr-One-E', { env: { account: 'ONE',   region: 'us-east-1' }});
+new Infrastructure(app, 'Infr-Two-W', { env: { account: 'TWO',   region: 'us-west-2' }});
+new Infrastructure(app, 'Infr-Two-E', { env: { account: 'TWO',   region: 'us-east-1' }});
+new Infrastructure(app, 'Infr-Three-W', { env: { account: 'THREE', region: 'us-west-2' }});
+new Infrastructure(app, 'Infr-Three-E', { env: { account: 'THREE', region: 'us-east-1' }});
+						</code>
+					</pre>
+					<pre>
+						<code>
+cdk deploy [Infr-One-W]
+						</code>
+					</pre>
+				</section>
 				<section data-markdown>
 					<textarea data-template>
 						## Page title
