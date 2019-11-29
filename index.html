@@ -21,6 +21,13 @@
 			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
+		<style>
+			footer {
+				font-size: small;
+    			position: relative;
+    			top: 350px;
+			}
+		</style>
 	</head>
 	<body>
 		<div class="reveal">
@@ -32,6 +39,50 @@
 					<h4>
 						build your infrastructure on AWS using typescript
 					</h4>
+				</section>
+				<section>
+					<h2>S3</h2>
+					<h4>Amazon Unlimited FTP Server</h4>
+					<p>
+						Can serve static websites. Cheap.
+					</p>
+					<footer>
+						“Amazon Web Services, the “Powered by AWS” logo, [and name any other AWS Marks used in such materials] 
+						are trademarks of Amazon.com, Inc. or its affiliates in the United States and/or other countries."
+					</footer>
+				</section>
+				<section>
+						<h2>EC2</h2>
+						<h4>Amazon Virtual Servers</h4>
+						<p>
+							Can be used for anything that server is for. Expensive (pay for running server)
+						</p>
+						<footer>
+							“Amazon Web Services, the “Powered by AWS” logo, [and name any other AWS Marks used in such materials] 
+							are trademarks of Amazon.com, Inc. or its affiliates in the United States and/or other countries."
+						</footer>
+					</section>
+				<section>
+					<h2>Lambda</h2>
+					<h4>AWS App Scripts</h4>
+					<p>
+						Can run any function in many programming languages. Cheap (pay only if invoked)
+					</p>
+					<footer>
+						“Amazon Web Services, the “Powered by AWS” logo, [and name any other AWS Marks used in such materials] 
+						are trademarks of Amazon.com, Inc. or its affiliates in the United States and/or other countries."
+					</footer>
+				</section>
+				<section>
+					<h2>Api Gateway</h2>
+					<h4>Connects your services with world</h4>
+					<p>
+						You can easily add new REST methods to (for example) run your Lambda function
+					</p>
+					<footer>
+						“Amazon Web Services, the “Powered by AWS” logo, [and name any other AWS Marks used in such materials] 
+						are trademarks of Amazon.com, Inc. or its affiliates in the United States and/or other countries."
+					</footer>
 				</section>
 				<section id="video1" data-autoslide="12300">
 					<video controls>
